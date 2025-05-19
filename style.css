@@ -1,0 +1,59 @@
+.page {
+    text-align: center;
+    margin: auto;
+    background: url('https://i.pinimg.com/originals/92/f9/5d/92f95d5d3ff21aeee60cd9805e8252cb.jpg')
+}
+.logo {
+    text-align: start;
+    border-radius: 50%
+}
+.name {
+    vertical-align: top;
+    color: white;
+    font-size: 80px;
+    font-family: 'Bradley Hand', cursive;
+    text-shadow: 2px 2px 2px #000;
+    letter-spacing : 20px;
+}
+.services {
+    width: 50%;
+    font-family: 'Comic Sans MS, Comic Sans, cursiveComic Sans MS, Comic Sans', cursive;
+    color: white;
+    text-shadow: 2px 2px 0 #000000;
+}
+.menu {
+    text-align: left;
+    margin: auto;
+    padding-left: 150px;
+    font-size:40px;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+    /*width: 300px;*/
+    margin: 50px;
+    font-size: 30px;
+    color: black;
+}
+button{
+    width: 50%;
+    font-family: 'Comic Sans MS, Comic Sans, cursiveComic Sans MS, Comic Sans', cursive;
+    color: white;
+    text-shadow: 2px 2px 0 #000000;
+    padding: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+}
